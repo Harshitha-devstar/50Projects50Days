@@ -171,12 +171,12 @@ nav ul li + li + li{
     transition: width 0.7s ease;
 }
 .search.active #search{
-    width:250px;
+    width:200px;
     
 }
 
 .search.active .search-btn{
-    transform: translateX(200px);
+    transform: translateX(150px);
 }
 
 #search::placeholder{
@@ -205,7 +205,7 @@ nav ul li + li + li{
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 80vw;
-    width:20rem;
+    width:80vw;
     height:25rem;
     filter: blur(30px);
     
