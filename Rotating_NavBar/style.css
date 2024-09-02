@@ -30,7 +30,7 @@ body{
     
     width:100vw;
     min-height: 100vh;
-    padding: 50px;
+    padding: 60px;
     text-align: justify;
     transition: transform 0.4s linear;
     
@@ -54,6 +54,7 @@ body{
     position:fixed;
     top: -100px;
     left: -100px;
+    z-index: 1;
 }
 .circle{
     background-color: #e06767e4;
@@ -117,7 +118,7 @@ nav ul {
 nav ul li{
     text-transform: uppercase;
     color:#fff;
-    margin:40px 0;
+    margin:20px 0;
     transform: translateX(-100%);
     transition:transform 0.5s ease-in;
 }
@@ -138,6 +139,7 @@ nav ul li + li + li{
     position: fixed;
     top:20px;
     right:20px;
+    z-index: 1;
 }
 
 .search{
@@ -203,8 +205,8 @@ nav ul li + li + li{
     background-repeat: no-repeat;
     background-size: cover;
     min-width: 80vw;
-    width:25em;
-    height:20em;
+    width:20rem;
+    height:25rem;
     filter: blur(30px);
     
     
