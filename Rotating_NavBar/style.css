@@ -6,7 +6,7 @@
 }
 body{
     
-   /* overflow-x: hidden;*/
+   overflow-x: hidden;
     margin:0;
     background-color: rgb(47, 45, 45);
     color:#222;
@@ -22,9 +22,7 @@ body{
     
     
 }
-img{
-    width:100vw;
-}
+
 .container{
     
     background-color: #f4f4f4;
@@ -192,3 +190,36 @@ nav ul li + li + li{
     font-size: 25px;
 
 }
+
+
+
+/* blurry loading Project 5 */
+.blurred{
+    position:relative;
+}
+.img{
+    background-image: url(./cat.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 80vw;
+    width:25em;
+    height:20em;
+    filter: blur(30px);
+    
+    
+    
+    
+    
+}
+.loading{
+    position: absolute;
+    top:50%;
+    left:50%;
+    font-size:2em;
+    color:white;
+    z-index:1000;
+    font-weight: 900;
+}
+
+
