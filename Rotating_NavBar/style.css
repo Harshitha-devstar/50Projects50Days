@@ -198,14 +198,16 @@ nav ul li + li + li{
 /* blurry loading Project 5 */
 .blurred{
     position:relative;
+    width: 100%;
+    
 }
 .img{
     background-image: url(./cat.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    min-width: 80vw;
-    width:80vw;
+    min-width: 50%;
+    width:100%;
     height:25rem;
     filter: blur(30px);
     
